@@ -1,0 +1,6 @@
+Version 1
+[X] Have a place to store todos
+[X] Have a way to display todos
+[X] Have a way to add todos
+[X] Have a way to edit todos
+[X] Have a way to remove todos
