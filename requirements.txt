@@ -1,3 +1,8 @@
+Version 2
+[X] Have a function to add a todo
+[X] Have a function to edit a todo
+[X] Have a function to remove a todo
+
 Version 1
 [X] Have a place to store todos
 [X] Have a way to display todos
