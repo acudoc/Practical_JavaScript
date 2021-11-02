@@ -1,7 +1,7 @@
 Version 3
 [X] Should intialize the todos variable with objects
 [X] The add function should add a new todo object to the todos array
-[] The edit function should edit the todo object
+[X] The edit function should edit the todo object
 [] It should have a function to toogle a todo
 
 Version 2

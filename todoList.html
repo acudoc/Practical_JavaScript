@@ -20,10 +20,11 @@
         console.log(todos);
       }
 
-      function edit(position, newValue) {
-        todos[position] = newValue;
-        console.log(todos);
+      function edit(position, newtodoText) {
+         todos[position].todoText = newtodoText;
+          console.log(todos);  
       }
+
 
       function remove(position) {
        todos.splice(position, 1);
