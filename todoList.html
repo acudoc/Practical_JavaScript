@@ -12,11 +12,11 @@
        {todoText:'Item 2', completed: false},
        {todoText:'Item 3', completed: false}
       ];
-      
+
       console.log(todos);
 
-      function add(todo) {
-        todos.push(todo);
+      function add(intialtodoText) {
+        todos.push({todoText: intialtodoText, completed: false});
         console.log(todos);
       }
 
