@@ -1,8 +1,19 @@
+Version 5
+[]  It should have a function display todos.
+[]  display.todos should display todoText property.
+[]  display.todos should display Completed property.
+
+
+Version 4
+[X] It should have a function to toogle a todo
+
+
+
 Version 3
 [X] Should intialize the todos variable with objects
 [X] The add function should add a new todo object to the todos array
 [X] The edit function should edit the todo object
-[] It should have a function to toogle a todo
+
 
 Version 2
 [X] Have a function to add a todo
