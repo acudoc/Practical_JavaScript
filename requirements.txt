@@ -1,7 +1,7 @@
 Version 5
 [X]  It should have a function display todos.
-[]  display.todos should display todoText property.
-[]  display.todos should display Completed property.
+[X]  display.todos should display todoText property and Completed property.
+
 
 
 Version 4
