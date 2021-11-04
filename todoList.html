@@ -45,6 +45,28 @@
           console.log(todos[i]);
         }
       }  
+
+      function toggleAll() {
+        var completedTodos = 0;
+        var totalTodos = todos.length;
+
+        for (var i = 0; i < totalTodos; i++) {
+          if (todos[i].completed === true) {
+            completedTodos++;
+          }
+        }
+
+        if (completedTodos === totalTodos) {
+          for (var i = 0; i < totalTodos; i++) {
+            todos[i].completed = false;
+          }
+        } else {
+          for (var i = 0; i < totalTodos; i++) {
+            todos[i].completed = true;
+          }
+        }
+        displayTodos();
+      }
     </script>
   </body>
 </html>

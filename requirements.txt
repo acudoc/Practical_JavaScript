@@ -1,19 +1,19 @@
+Version 6
+[X]  It should have a function for toggling all todos.
+[X]  In toggling function, it should toggle all todos to the opposite of their current state (true/false).
+[]  If mixed change everything to true.
+
 Version 5
 [X]  It should have a function display todos.
 [X]  display.todos should display todoText property and Completed property.
 
-
-
 Version 4
 [X] It should have a function to toogle a todo
-
-
 
 Version 3
 [X] Should intialize the todos variable with objects
 [X] The add function should add a new todo object to the todos array
 [X] The edit function should edit the todo object
-
 
 Version 2
 [X] Have a function to add a todo
