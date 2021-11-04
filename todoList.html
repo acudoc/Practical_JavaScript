@@ -48,20 +48,20 @@
 
       function toggleAll() {
         var completedTodos = 0;
-        var totalTodos = todos.length;
+      
 
-        for (var i = 0; i < totalTodos; i++) {
+        for (var i = 0; i < todos.length; i++) {
           if (todos[i].completed === true) {
             completedTodos++;
           }
         }
 
-        if (completedTodos === totalTodos) {
-          for (var i = 0; i < totalTodos; i++) {
+        if (completedTodos === todos.length) {
+          for (var i = 0; i < todos.length; i++) {
             todos[i].completed = false;
           }
         } else {
-          for (var i = 0; i < totalTodos; i++) {
+          for (var i = 0; i < todos.length; i++) {
             todos[i].completed = true;
           }
         }
