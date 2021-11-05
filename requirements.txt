@@ -1,6 +1,8 @@
 Version 7
 [X] It should have display todos button.
 [X] The didplayTodos button should run displayTodos function.
+[X]  It should have toggle all button.
+[X]  The toggle all button should run toggleAll function.
 
 Version 6
 [X]  It should have a function for toggling all todos.
