@@ -4,7 +4,7 @@
   <head>
     <title>Practical JavaScript</title>
   </head>
-
+  <button id=display-todos-button>Display Todos</button>
   <body>
     <script>
       var todos = [
@@ -49,13 +49,14 @@
       function toggleAll() {
         var completedTodos = 0;
       
-
+        
         for (var i = 0; i < todos.length; i++) {
           if (todos[i].completed === true) {
             completedTodos++;
           }
         }
 
+        
         if (completedTodos === todos.length) {
           for (var i = 0; i < todos.length; i++) {
             todos[i].completed = false;
@@ -67,6 +68,11 @@
         }
         displayTodos();
       }
+
+
+
+      var displayTodosButton = document.getElementById('display-todos-button');
+      displayTodosButton.addEventListener('click', displayTodos);
     </script>
   </body>
 </html>

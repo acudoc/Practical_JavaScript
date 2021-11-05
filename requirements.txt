@@ -1,7 +1,11 @@
+Version 7
+[X] It should have display todos button.
+[X] The didplayTodos button should run displayTodos function.
+
 Version 6
 [X]  It should have a function for toggling all todos.
 [X]  In toggling function, it should toggle all todos to the opposite of their current state (true/false).
-[]  If mixed change everything to true.
+[x]  If mixed change everything to true.
 
 Version 5
 [X]  It should have a function display todos.
