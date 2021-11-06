@@ -77,6 +77,7 @@
 
         for (var i = 0; i < todos.length; i++) {
           var todoLi = document.createElement('li');
+          todoLi.innerHTML = todos[i].todoText;
           todosUl.appendChild(todoLi);
         }
       }  
