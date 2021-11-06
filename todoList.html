@@ -4,6 +4,7 @@
   <head>
     <title>Practical JavaScript</title>
   </head>
+  <body>
   <button id='display-todos-button'>Display Todos</button>
   <button id='toggle-all-button'>Toggle All</button>
   <button id='add-button'>Add</button>
@@ -15,7 +16,11 @@
   <input id='delete-input'>
   <button id='toggle-button'>Toggle</button>
   <input id='toggle-input'>
-  <body>
+  
+  
+  <ul id='todos-ul'>
+  </ul>
+
     <script>
       var todos = [
        {todoText:'Item 1', completed: false},
@@ -63,8 +68,12 @@
       }
 
       function displayTodos() {
+
+        var todosUl = document.getElementById('todos-ul');
+
         for (var i = 0; i < todos.length; i++) {
-          console.log(todos[i]);
+          var todoLi = document.createElement('li');
+          todosUl.appendChild(todoLi);
         }
       }  
 
