@@ -1,3 +1,9 @@
+Version 8
+[] There should be button for adding todo
+[] There should be button for editing todo
+[] There should be button for removing todo
+[] There should be button for toggling todo
+
 Version 7
 [X] It should have display todos button.
 [X] The didplayTodos button should run displayTodos function.
