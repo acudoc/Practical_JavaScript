@@ -11,6 +11,8 @@
   <button id='edit-button'>Edit</button>
   <input id='edit-position-input'>
   <input id='edit-text-input'>
+  <button id='delete-button'>Delete</button>
+  <input id='delete-input'>
   <body>
     <script>
       var todos = [
@@ -38,8 +40,10 @@
         displayTodos();  
       }
 
-      function remove(position) {
+      function remove() {
+        var position = deleteInput.value;
         todos.splice(position, 1);
+        deleteInput.value = '';
         displayTodos();
       } 
       
@@ -96,6 +100,10 @@
       var editPositionInput = document.getElementById('edit-position-input');
       var editTextInput = document.getElementById('edit-text-input');
       editButton.addEventListener('click', edit);
+
+      var deleteButton = document.getElementById('delete-button');
+      var deleteInput = document.getElementById('delete-input');
+      deleteButton.addEventListener('click', remove);
     </script>
   </body>
 </html>

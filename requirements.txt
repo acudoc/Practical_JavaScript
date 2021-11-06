@@ -1,7 +1,7 @@
 Version 8
 [X] There should be button for adding todo
 [X] There should be button for editing todo
-[] There should be button for removing todo
+[3] There should be button for removing todo
 [] There should be button for toggling todo
 
 Version 7
