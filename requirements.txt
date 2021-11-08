@@ -1,3 +1,10 @@
+Version 10
+[] Each todo should have it own remove button.
+[] Make the todo remove button work.
+
+
+
+
 Version 9
 [X] There should be li for each todo item
 [X] Each li should show the todo text property.
