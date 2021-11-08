@@ -1,6 +1,7 @@
 Version 9
 [X] There should be li for each todo item
 [X] Each li should show the todo text property.
+[] Each li should show the completed property.
 
 
 Version 8
