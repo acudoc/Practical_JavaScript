@@ -1,5 +1,5 @@
 Version 10
-[] Each todo should have it own remove button.
+[X] Each todo should have it own remove button.
 [] Make the todo remove button work.
 
 
