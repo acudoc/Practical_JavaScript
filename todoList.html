@@ -11,8 +11,6 @@
   <button id='edit-button'>Edit</button>
   <input id='edit-position-input'>
   <input id='edit-text-input'>
-  <!-- <button id='delete-button'>Delete</button> -->
-  <!-- <input id='delete-input'> -->
   <button id='toggle-button'>Toggle</button>
   <input id='toggle-input'>
   
@@ -47,12 +45,7 @@
       }
 
       
-      // function remove() {
-        // var position = deleteInput.value;
-        // todos.splice(position, 1);
-        // deleteInput.value = '';
-        // displayTodos();
-      // }
+      
       function remove(event) {
         var position = event.target.id;
         todos.splice(position, 1);
@@ -68,7 +61,6 @@
         }
 
         toggleInput.value = '';
-      
         displayTodos();
       }
 
@@ -89,8 +81,8 @@
           removeButton.innerText = 'Remove';
           removeButton.addEventListener('click', remove);
           removeButton.id = i;
-          todoLi.appendChild(removeButton);
 
+          todoLi.appendChild(removeButton);
           todosUl.appendChild(todoLi);
         }
       }  
