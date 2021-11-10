@@ -1,9 +1,6 @@
 Version 10
 [X] Each todo should have it own remove button.
-[] Make the todo remove button work.
-
-
-
+[X] Make the todo remove button work.
 
 Version 9
 [X] There should be li for each todo item
