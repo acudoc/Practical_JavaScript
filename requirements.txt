@@ -1,5 +1,5 @@
 Version 11
-[] Each todo should have its own toggle button
+[X] Each todo should have its own toggle button
 [] Each toggle button should work
 
 Version 10

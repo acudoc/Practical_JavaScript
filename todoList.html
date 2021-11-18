@@ -79,7 +79,11 @@
           removeButton.addEventListener('click', remove);
           removeButton.id = i;
 
+          var toggleButton = document.createElement('button');
+          toggleButton.innerText = 'Toggle';
+
           todoLi.appendChild(removeButton);
+          todoLi.appendChild(toggleButton);
           todosUl.appendChild(todoLi);
         }
       }  
