@@ -4,6 +4,7 @@
   <head>
     <title>Practical JavaScript</title>
   </head>
+
   <body>
   <button id='toggle-all-button'>Toggle All</button>
   <button id='add-button'>Add</button>
@@ -13,7 +14,6 @@
   <input id='edit-text-input'>
   <button id='toggle-button'>Toggle</button>
   <input id='toggle-input'>
-  
   
   <ul id='todos-ul'>
   </ul>
@@ -27,7 +27,6 @@
         
       displayTodos();
 
-    
       function add() {
         var intialtodoText = addInput.value;
         todos.push({todoText: intialtodoText, completed: false});
@@ -44,10 +43,8 @@
         displayTodos();  
       }
 
-      
-      
       function remove(event) {
-        var position = event.target.id;
+        var position = event.currentTarget.id;
         todos.splice(position, 1);
         displayTodos();
       } 
@@ -122,9 +119,6 @@
       var editTextInput = document.getElementById('edit-text-input');
       editButton.addEventListener('click', edit);
 
-      // var deleteButton = document.getElementById('delete-button');
-      // var deleteInput = document.getElementById('delete-input');
-      // deleteButton.addEventListener('click', remove);
 
       var toggleButton = document.getElementById('toggle-button');
       var toggleInput = document.getElementById('toggle-input');
