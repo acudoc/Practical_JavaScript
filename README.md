@@ -1,3 +1,4 @@
 # Practical_JavaScript
 
-Create a todo app to learn Javascript
+Create a todo app to learn Javascript.
+
