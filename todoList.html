@@ -32,17 +32,11 @@
       function edit(event) {
         var newTodoText = prompt();
 
-        if (newTodoText === null) {
-          // do nothing
-        } else {
-          if (newTodoText === "") {
-            // do nothing
-          } else {
-            var position = event.currentTarget.id.split('-')[1];
+        if (newTodoText !== null && newTodoText !== '') {
+          var position = event.currentTarget.id.split('-')[1];
             todos[position].todoText = newTodoText;
             displayTodos();
-          }
-        }
+        } 
       }
         
       function remove(event) {
