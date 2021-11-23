@@ -31,11 +31,20 @@
 
       function edit(event) {
         var newTodoText = prompt();
-        var position = event.currentTarget.id.split('-')[1];
-        todos[position].todoText = newTodoText;
-        displayTodos();  
-      }
 
+        if (newTodoText === null) {
+          // do nothing
+        } else {
+          if (newTodoText === "") {
+            // do nothing
+          } else {
+            var position = event.currentTarget.id.split('-')[1];
+            todos[position].todoText = newTodoText;
+            displayTodos();
+          }
+        }
+      }
+        
       function remove(event) {
         var position = event.currentTarget.id.split('-')[1];
         todos.splice(position, 1);
@@ -117,8 +126,6 @@
       var addButton = document.getElementById('add-button');
       var addInput = document.getElementById('add-input');
       addButton.addEventListener('click', add);
-
-      
 
     </script>
   </body>

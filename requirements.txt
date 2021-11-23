@@ -1,6 +1,9 @@
 Version 12
 [X] Each todo should have edit button
 [X] Each todo should work
+[X]  Fix null case where the edit is not added to the list
+[X] If someone hits ok and field is empty, it should not be added
+
 
 
 Version 11
