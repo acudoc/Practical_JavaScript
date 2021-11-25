@@ -1,8 +1,8 @@
 body {
-    background-color: yellow;
+    background-color: rgb(161, 192, 194);
 }
 
 button {
-    color: blue;
+    color: rgb(6, 6, 39);
     margin-right: 30px;
 }
